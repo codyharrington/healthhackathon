@@ -1,25 +1,38 @@
 ## Health Hackathon 2015
 
-Development structure
+## Project structure
 
  -app
    - 
-   - images 
-   - scripts
-   - styles
+   - images : where you put all images
+   - scripts : where to put javascript
+   - styles  : css for bootstrap
    
-   
+##Development
+  
 Put htmls under \app folder
 
-  Build command
+Go to bootstrap for bootstrap apis.
+  
+  
+## Build command
 
-1. install 
+1. install grunt , bootstrap and jquery
 
-   `npm install`
- 
-  `Bower install`
+   ```
+   npm install
+   ```
+   
+   ```
+   Bower install
+   ```
 
 2. to build, run 
 
- `grunt`
+  ```
+  grunt
+  ```
+ 
+
+and then you can find the full site is built under `\dist`folder
   
