@@ -15,32 +15,79 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+
+	<style>
+	.post-its {
+		height: 100%;
+	}
+	.post-item {
+	   padding-left: 5%;
+	   padding-right: 5%;
+	   height: 100%;
+	}
+	
+	section {
+		height: 100%;
+	}
+
+	#app-advert {
+		background-color: black;
+		color: white;
+	}
+
+	.points {
+		margin-top: 10%;
+	}
+
+	.list {
+		margin-left: -3%;
+		padding-top: 3%;
+
+	}
+
+	</style>`
+	<script>
+	</script>
   </head>
   <body>
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="navbar-brand">
+			GotPain
+		</div>
+	</div>
 
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Record</a></li>
-        </ul>
-        <h3 class="text-muted">healthApp</h3>
-      </div>
+	<section id="app-advert" style="padding-top: 7%">
+	<div class="row fluid">
+		<div class="col-md-12">
+			<div class="col-md-6 logo">
+				<img src="images/logo.jpg">
+			</div>
+			<div class="col-md-6 points">
+				<img src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png">
+				<div class="list">
+					<ul>
+						<li>Be in control of your heart disease</li>
+						<li>Save money and a trip to the Hospital</li>
+						<li>Know when to call 111</li>
+						<li>Love your heart</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
 
-      <div class="jumbotron">
-        <p><a class="btn btn-lg btn-success" href="step1.html" style="height:100px; border-radius:50%">Chest Pain? <!--span class="glyphicon glyphicon-ok"></span--></a></p>
-      </div>
-
-
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the GotPain team</p>
-      </div>
-
-    </div>
-
+	<section class="post-its">
+		<div class="row-fluid" style="height: 100%;">
+			<div class="post-item col-md-4" style="background-color: rgb(85, 170, 85);"></div>
+			<div class="post-item col-md-4" style="background-color: rgb(85, 85, 170);"></div>
+			<div class="post-item col-md-4" style="background-color: rgb(170, 85, 85);"></div>
+		</div>
+	</section>
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
